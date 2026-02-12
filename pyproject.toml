@@ -1,0 +1,15 @@
+[project]
+name = "minigitdiff_bakidmr60"
+version = "0.1.0"
+authors = [
+  { name="Baki", email="bakitkt60@gmail.com" },
+]
+description = "Minigitdiff is a powerful command-line utility used to display the differences between two files written in python."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
