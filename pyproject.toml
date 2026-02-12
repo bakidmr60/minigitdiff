@@ -1,10 +1,14 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "minigitdiff_bakidmr60"
+name = "minigitdiff"
 version = "0.1.0"
 authors = [
   { name="Baki", email="bakitkt60@gmail.com" },
 ]
-description = "Minigitdiff is a powerful command-line utility used to display the differences between two files written in python."
+description = "CLI tool to show differences between two Python files"
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
@@ -13,3 +17,6 @@ classifiers = [
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
+
+[project.scripts]
+minidiff = "minidiff.diff:main"
